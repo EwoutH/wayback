@@ -6,3 +6,5 @@ jdk:
 arch:
   - amd64
   - arm64
+
+before_install: mvn release:update-versions -DautoVersionSubmodules=true
