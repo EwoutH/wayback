@@ -1,10 +1,5 @@
 language: java
+dist: bionic
 jdk:
-  - oraclejdk8
-  # no longer available
-  #- oraclejdk7
-  - openjdk7
-branches:
-  only:
-    - master
-    - ait-qa
+  - oraclejdk14
+  - openjdk14
