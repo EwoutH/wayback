@@ -1,5 +1,8 @@
 language: java
 dist: bionic
+addons:
+  apt:
+    packages: nvm
 jdk:
   - oraclejdk14
   - openjdk14
