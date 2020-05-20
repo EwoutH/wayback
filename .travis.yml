@@ -3,3 +3,6 @@ dist: bionic
 jdk:
   - oraclejdk14
   - openjdk14
+arch:
+  - amd64
+  - arm64
